@@ -1,99 +1,57 @@
 # RESTful API for Blog
 
-## 📋 Project Description
+## 📖 Project Description
 
-The RESTful API for Blog is a backend web development project designed to manage blog content through RESTful web services. The application provides a structured and scalable solution for creating, retrieving, updating, and deleting blog posts while following REST architecture principles.
+RESTful API for Blog is a backend web development project built using Node.js and Express.js. It provides a set of RESTful endpoints that allow users to create, read, update, and delete blog posts. The project demonstrates CRUD operations, API routing, request handling, and backend application development.
 
-The API uses standard HTTP methods and JSON data exchange to enable seamless communication between clients and the server. This project demonstrates essential backend development concepts, including API routing, database integration, request handling, validation, and error management.
+## 🚀 Features
 
----
-
-## 🎯 Objectives
-
-- Develop a RESTful backend service for blog management.
-- Implement CRUD (Create, Read, Update, Delete) operations.
-- Integrate database functionality for data storage.
-- Ensure proper validation and error handling.
-- Gain practical experience in backend web development.
-
----
-
-## ✨ Features
-
-- Create Blog Posts
-- Retrieve All Blog Posts
-- Retrieve Single Blog Post
-- Update Existing Blog Posts
-- Delete Blog Posts
-- JSON-Based Data Exchange
-- Input Validation
-- Error Handling
-- Database Integration
-- RESTful Endpoint Architecture
-
----
+- Create blog posts
+- Retrieve all blog posts
+- Retrieve a single blog post
+- Update existing blog posts
+- Delete blog posts
+- RESTful API architecture
+- JSON data exchange
+- Error handling
 
 ## 🛠️ Technologies Used
 
 - Node.js
 - Express.js
-- MongoDB / MySQL
+- JavaScript
 - REST API
-- Postman
-- Git & GitHub
-
----
+- GitHub
 
 ## 📡 API Endpoints
 
 | Method | Endpoint | Description |
-|----------|------------|-------------|
-| GET | /posts | Retrieve all blog posts |
-| GET | /posts/:id | Retrieve a specific blog post |
-| POST | /posts | Create a new blog post |
-| PUT | /posts/:id | Update an existing blog post |
-| DELETE | /posts/:id | Delete a blog post |
-
----
+|----------|----------|-------------|
+| GET | /api/posts | Get all posts |
+| GET | /api/posts/:id | Get a post by ID |
+| POST | /api/posts | Create a new post |
+| PUT | /api/posts/:id | Update a post |
+| DELETE | /api/posts/:id | Delete a post |
 
 ## 📂 Project Structure
 
 ```text
-RESTful-API-for-Blog/
-│
-├── routes/
-├── controllers/
-├── models/
-├── config/
-├── middleware/
+RESTful-API-for-Blog
+├── controllers
+│   └── postController.js
+├── models
+│   └── Post.js
+├── routes
+│   └── posts.js
 ├── server.js
 ├── package.json
-├── README.md
-└── .gitignore
+└── README.md
 ```
-
----
-
-## 🧪 Testing
-
-The API was tested using Postman to verify endpoint functionality, request processing, response accuracy, and error handling.
-
----
-
-## ✅ Results
-
-The project successfully implements a fully functional RESTful API capable of managing blog content efficiently through CRUD operations and database integration. It demonstrates practical backend development skills and adherence to RESTful design principles.
-
----
 
 ## 👨‍💻 Developer
 
-**Udhayanidhi Kalimuthu Singadurai H**
-
-Backend Web Development Intern
-
----
+Udhayanidhi Kalimuthu Singadurai H
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+MIT License
